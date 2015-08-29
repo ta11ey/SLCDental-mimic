@@ -1,0 +1,185 @@
+/*div, span, header{border:1px dotted red;}*/
+
+body {
+	background: #005aa3;
+}
+
+.top-bar {
+	background-color:#004E8E;
+	border-bottom: 1px solid #13a2d8;
+	text-align: center;
+	color:white;
+	font-family: 'Droid sans';
+	font-size: 11px;
+	width:100%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom:10px;
+	height:20px;
+	padding-top:10px;
+
+}
+
+.address {
+	padding: 20px;
+}
+.phone-number {
+	padding:0 20px;
+	border-left:1px solid #13a2d8;
+	border-right:1px solid #13a2d8;
+}
+.social-media {
+	padding: 0 10px;
+}
+
+.fa {
+	padding-left:5px;
+}
+
+
+#wrapper {
+	background-color: #FFFFFF;
+	width:960px;
+	margin-left: auto;
+	margin-right: auto;
+/*	clear:both; watch for problems floating in main page later, used to get top-bar inline
+*/	padding:29px 29px;
+	box-shadow:0px 0px 5px 2px #3f3f3f;
+
+
+}
+header {
+	display:flex;
+	
+}
+
+.nav-buttons {
+	width:100%;
+	display: flex;
+}
+
+.flex-work-plz {
+	display:flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-left:auto;
+	margin-right:auto;
+	width:400px;
+}
+
+.nav {
+	color:#005AA3;
+}
+
+
+
+.nav:hover{
+	color: #13a2d8;
+	}
+.face-container{
+	width:100%;
+}
+
+.image {
+	display:block;
+	margin:0 auto;
+
+}
+
+.carousel-container{
+	display:flex;
+	padding-top: 10px;
+	padding-bottom:30px;
+}
+.block-cont {
+	display:flex;
+	margin:0 auto;
+	width: 100px;
+}
+.gray-block {
+	width:22px;
+	height: 18px;
+	margin: 0 auto;
+	background: #B5B5B5;
+}
+
+.gray-block:hover {
+	background: #7B7B7B;
+}
+
+.triple-cont {
+	width:100%;
+	display:flex;
+
+}
+
+.triple img {
+	margin-bottom: 10px;
+}
+
+.triple div{
+	font-family: 'Droid sans';
+	font-size: 11px;
+	position:relative;
+
+}
+
+.triple b {
+	position:absolute;
+	bottom:0px;
+	color: #464646;
+	}
+.triple b:hover {
+	color: #0063AB;
+
+}
+
+.triple {
+	width: 275px;
+	height: 400px;
+	margin:0 auto;
+	text-align: center;
+	position: relative;
+
+}
+
+.building img{
+
+	display:block;
+	margin: 0 auto;
+	margin-top: 80px;
+}
+
+.foot-wrap {
+	font-size: 10px;
+	color: white;
+	display:flex;
+	width:960px;
+	margin: 0 auto;
+	margin-top:7px;
+	margin-bottom:60px;
+
+}
+.copywright {
+	flex:2;
+}
+.photo-thank{
+	flex:1;
+
+}
+
+.bottom-nav {
+	flex:1;
+	display:flex;
+	
+}
+.bu {
+	margin:0 4px;
+
+}
+.bottom-nav :hover{
+	color: #333333;
+}
+
+
+
